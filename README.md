@@ -13,4 +13,7 @@ It covers the following:
 - basic express routers (render, redirect, error)
 - basic express middleware implementation
 
+Installation:
+1. Create a workspace in C9 with an HTML template
+
 
