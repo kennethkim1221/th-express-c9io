@@ -1,0 +1,32 @@
+{
+    "data": {
+        "title": "JavaScript Flashcards",
+        "cards": [
+            {
+                "question": "What is the programming language that is natively supported across all browsers?",
+                "hint": "It uses Google's powerful V8 engine!",
+                "answer": "JavaScript"
+            },
+            {
+                "question": "What is one way a website can store data in a user's browser?",
+                "hint": "They are delicious with milk",
+                "answer": "Cookies"
+            },
+            {
+                "question": "Why keyboards don't sleep?",
+                "hint": "...",
+                "answer": "Because they have 2 shifts! ...LOL!..."
+            },
+            {
+                "question": "How many different values can booleans have?",
+                "hint": "Think binary [*_*]",
+                "answer": "2"
+            },
+            {
+                "question": "It's gonna be Legen",
+                "hint": "wait for it...",
+                "answer": "dary! LEGENDARY!"
+            }
+        ]
+    }
+}

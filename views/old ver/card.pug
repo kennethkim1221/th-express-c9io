@@ -1,0 +1,25 @@
+extends layout
+
+block content
+  section#content
+    h2= value
+    if hint
+      p
+        i= `Hint: ${hint}`
+        br
+        br
+    a(href=`${index}?key=${keyToUse}`)= keyToUseDisplay
+    br
+    a(href=`/cards`) Next card ->
+    // auto base url from start param? 
+    
+    // 
+      i= 'Hint: ' + hint - basic format and does not product 'undefined' if hint is null 
+      i= `Hint: ${hint}` - JS Template Literal 
+      i Hint: #{hint} - pug Template Literal
+      .
+      Samples with property
+      h1(title='Hi' + animal + '!') text
+      h1(title=`Hi ${animal}!`) text
+      .
+      *** TH preffers JS template Lieterals ***
